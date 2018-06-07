@@ -2,10 +2,10 @@ import java.util.ArrayList;
 
 public class initAssig {
 
-    static void init(){
-        Assignatura ass1 = new Assignatura(1,"Xarxes",150,6,true);
-        Assignatura ass2 = new Assignatura(2,"Sistemes Operatius",100,4,true);
-        Assignatura ass3 = new Assignatura(2,"Entorns",75,3,true);
+    static void init() {
+        Assignatura ass1 = new Assignatura(1, "Xarxes", 150, 6, true);
+        Assignatura ass2 = new Assignatura(2, "Sistemes Operatius", 100, 4, true);
+        Assignatura ass3 = new Assignatura(2, "Entorns", 75, 3, true);
         ArrayList<Assignatura> assignatures = new ArrayList<Assignatura>();
         assignatures.add(ass1);
         assignatures.add(ass2);
