@@ -1,6 +1,11 @@
 import java.util.Collection;
 import java.util.Iterator;
 
+/**
+ * @author dmartineza
+ * @version 1.0
+ * @since 07/06/2018
+ */
 public class Matricula {
 
     public long id = 0;
@@ -11,6 +16,14 @@ public class Matricula {
     public Matricula() {
     }
 
+    /**
+     *
+     * @param id id de la matricula a crear
+     * @param nom nombre de el estudiant
+     * @param cognoms cognom de el estudiant
+     * @param dni identificador del estudiant
+     * @param assignatures assignatures a realitzar per a la matricula
+     */
     public Matricula(long id, String nom, String cognoms, String dni, Collection assignatures) {
         this.id = id;
         Estudiant x = new Estudiant(nom, cognoms, dni);

@@ -1,3 +1,8 @@
+/**
+ * @author dmartineza
+ * @version 1.0
+ * @since 07/06/2018
+ */
 public class Assignatura {
     public long id = 0;
     private String nom = "";
@@ -6,6 +11,14 @@ public class Assignatura {
     private boolean disponible = false;
 
 
+    /**
+     *
+     * @param id id asignatura
+     * @param nom nombre
+     * @param hores medida de tiempo
+     * @param credits dinerito
+     * @param disponible esta o no?
+     */
     public Assignatura(long id, String nom, int hores, int credits, boolean disponible) {
         this.id = id;
         this.nom = nom;

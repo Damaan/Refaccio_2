@@ -1,5 +1,9 @@
 import java.util.ArrayList;
-
+/**
+ * @author dmartineza
+ * @version 1.0
+ * @since 07/06/2018
+ */
 public class initAssig {
 
     static void init() {
@@ -10,7 +14,7 @@ public class initAssig {
         assignatures.add(ass1);
         assignatures.add(ass2);
         assignatures.add(ass3);
-        Matricula prova = new Matricula(2018090103, "Josep", "Garcia Marti", "12345678X", 1, assignatures);
+        Matricula prova = new Matricula(2018090103, "Josep", "Garcia Marti", "12345678X",  assignatures);
         System.out.print("Cost de la matricula " + prova.costMatricula());
     }
 }
